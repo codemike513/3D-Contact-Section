@@ -1,9 +1,14 @@
-import Fox from "@/components/Fox";
+import Contact from "@/components/Contact";
+import Shapes from "@/components/Shapes";
 
 export default function Home() {
   return (
-    <div>
-      <Fox />
+    <div className='relative z-0 bg-primary'>
+      <div className='relative z-0'>
+      {/* <Contact /> */}
+      <Shapes/>
+      </div>
     </div>
   );
 }
+ 
